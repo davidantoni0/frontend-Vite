@@ -1,5 +1,6 @@
-const form = document.getElementById("login-form") as HTMLFormElement;
 const API_URL = import.meta.env.VITE_API_URL;
+
+const form = document.getElementById("loginForm") as HTMLFormElement;
 
 form.addEventListener("submit", async (e: Event) => {
   e.preventDefault();
