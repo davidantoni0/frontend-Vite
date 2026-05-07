@@ -1,5 +1,5 @@
 {
-  "name": "vite-project",
+  "name": "front-blog",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "~5.6.2",
-    "vite": "^5.4.10"
+    "typescript": "~6.0.2",
+    "vite": "^5.4.21"
+  },
+  "dependencies": {
+    "lucide": "^1.14.0"
   }
 }
